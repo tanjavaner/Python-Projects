@@ -1,0 +1,1 @@
+If your printer does not support duplex printing and you do not want to deal with editing the pages like double-sided printing, this simple code will bring you the numbers of the pages that need to be printed on the front and back pages according to the settings you set. 

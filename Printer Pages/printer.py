@@ -18,10 +18,10 @@ while t <= sayfa:
     t += 1
 
 
-print("Front pages:",on_sayfa[:-1:])
+print("\n\nFront pages:" ,on_sayfa[:-1:])
 pyperclip.copy(on_sayfa[:-1:])
-input("Front pages are saved on clipboard. Press ENTER to continue with back pages.")
+input("\nFront pages are saved on clipboard. Press ENTER to continue with back pages.")
 
-print("Back pages:",arka_sayfa[:-1:])
+print("\n\nBack pages:" ,arka_sayfa[:-1:])
 pyperclip.copy(arka_sayfa[:-1:])
-input("Back pages are saved on clipboard. Press ENTER to quit.")
+input("\nBack pages are saved on clipboard. Press ENTER to quit.")

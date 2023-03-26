@@ -1,0 +1,61 @@
+00 *Tradeoff analysis*: The design task is to trade off these characteristics in order to best meet the demands.
+00 *Standardization*: moving towards standardization to minimize costs and assembly difficulty. 
+00 *Standardization*: use of standard parts rather than specially made parts.
+00 *Modularity*: Focused on characteristics other than cost such as variety from standards, quality, and appearance.
+00 * Computer-aided engineering (CAE)*: For example: Using CAD designs but subject them to stress, loads, vibrations to determine their strength and reliability.
+00 *Prototype *may take several forms: a physical model, a computer simulation, a real product.
+00 *Value analysis* (value engineering) is used to achieve the function of a product at less cost. 
+00 Several different versions of the same output can be produced for different *market segments*. 
+00 *Standardization* is still an effective way for cost reduction.
+00 *Standardization* has several drawbacks: lower quality or reduced performance and inflexibility of production .
+00 3 engines, 2 transmissions, 5 exterior colors , 3 upholstery have *90* versions .
+00 Changes in product design are more *frequent*; and product life cycles are shorter. 
+00 Technology in product design : *Computer-aided design CAD* drawing on the computer, rotating the design to see it from different angles, and so on , .
+00 Technology in product design : *Comptuer-aided engineering CAE* Using CAD designs but subject them to stress, loads, vibrations to determine their strength and reliability. 
+00 Technology in product design : *Computer-aided process planning CAPP* Technique of turning a part design into a manufacturing process plan: routings, operations, inspections, operation times, and so on . 
+00 Technology in product design : *Computer-aided manufacturing CAM* turning and laser cutting .
+00 Technology in product design : *Product life-cycle management PLM* managing entire life-cycle of a product, keeping track of design changes from the product concept, .. till retirement of the product .
+00 Technology in product design : *Collaborative product design CPD* a software system for collaborative design and development among trading partners in real time from physically separate locations .
+00 *Prototype testing* is the verification that screening objectives in engineering performance, durability, appearance, producibility are met .
+00 *Prototype* may take several forms: a physical model, a computer simulation, a real product.
+00 Prototype may take several forms: a physical model, a *computer simulation*, a real product.
+00 Prototype may take several forms: a *physical model*, a computer simulation, a real product.
+00 Prototype may take several forms: a physical model, a computer simulation, a *real product*.
+00 *Prototype evaluators*: consumers/users like final buyers, retailers, test pilots or drivers.
+00 *Final* design brings up all necesary features.
+00 Final Design -> Thanks to *simplification* programs Ford's engine had 25% fewer parts. 
+00 Final Design -> Thanks to *value analysis (value engineering)* it can be achieved that the function of a product at less cost.
+00 Final Design -> *Safety and legal properness* : Conserned with issued related to ease of use (usability) and the safety of the product.
+00 Final Design -> *Product liability* : State regulations concerning pollution, safety, drug prohibitions, and so on also impact product design.
+00 Final Design -> *Reliability* is the probability that a product will perform in a satisfactory manner for a given period of time under specific (normal) operating conditions.
+00 Final Design -> Considering reliability of a product we separate items that are consumed *one-time-use(Food,paper) or reusable(car,toaster)* products.
+00 Final Design parts -> *Simplification and Value Analysis* -> Safety and Legal Properness -> Product Liability -> Reliability -> Availability (MTBF / MBTF + MTTR)  -> usability -> manufacturability (design for manufacture) -> design for environment -> design for EPR -> design for robustness. 
+00 Process Design Stage -> From the discussions so far, it is clear that there is a close relationship between *the design of the product and the design of the production system* to make the product.
+00 Final Design -> *Design for robustness* : Product designed to withstand variations in environmental and operating conditions (outer noise)
+00 *Simplification* programs reduce the number of separate parts and operations to produce a product .
+00 Concerned with issues related to ease of use *(usability)* and the safety of the product .
+00 Product *liability* is a major concern of firms because of civil lawsuits restricting the firms.
+00 *Reliability * is the probability that a product will perform in a satisfactory manner for a given period of time under specific (normal) operating conditions .
+00 *Reusable * products consist of a number of subcomponents that must all function properly for the product to work reliably.
+00 lambda=1/sigma is the *failure* rate.
+00 Rs= R1xR2xR3 formulation is valid in *series* case.
+00 Mean time between failures are *MTBF*.
+00 *System availability* is MTBF/(MTBF+MTTR).
+00 *manufacturability*: a major design consideration -
+00 *design* engineers are no longer unlimited in how they design parts and products.
+00 *EPR* holds companies responsible for their product even after its useful life.
+00 Process Design :Design engineers must also specify certain *tolerance* limits.
+00 Process Design :*Explosion* chart  to see all its parts and how they fit together, together with a completed view of the finished product .
+00 *Assembly* chart  more detailed assembly instructions than the explosion chart and includes subassemblies as well. 
+00 Each of the pen’s parts will have a *blueprint* describing the construction of the part or else purchase specifications if the part is to be bought outside.
+00 *Route sheets*: showing each operation for each of the parts needed to produce the product; department where the operation is to be done; operation time needed; the equipment to be used for the operation; test procedures required.
+00 To analyze the cartridge subassembly task for possible improvements, use the *flow process* chart.
+00 System Availability or Maintainability is = *MeanTimeBetweenFailures / (MeanTimeBetweenFailures + MeanTimeToRepair)*.
+00 Preliminary Design : *Tradeoff analysis* = The design task is to trade off these characteristics in order to best meet the demands.
+00 Preliminary Design : Tradeoff analysis for a self-service restaurant -> *to reduce cost and service time to the recipient, but no waiters/waitress, no full-line menus, no individual attention.*.
+00 Preliminary Design : Disadvantages of *Standardization* Use of standard parts rather than specially made parts -> lower quality or reduced performance.
+00 Preliminary Design : Advantages of *Standardization* lower inventories and higher equipment utilization. Simplified scheduling in the factory.
+00 Preliminary Design : *Modularity* focused on characteristics other than cost such as variety from standarts , quality and appearance.
+00 Preliminary Design : *Modularity* = Producing the product in “modules”or subassemblies that are interchangeable.
+00 Preliminary Design : Modularity Example -> 4 c# module x 2 python module x 5 matlab module = total of 11 *module* to be combined for versions.
+00 Preliminary Design : Modularity Example -> 4 PythonPlaySprites x 2 PythonPlayPhysics x 10 PotentialGameLevels = 80 *versions*.

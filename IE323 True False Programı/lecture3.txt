@@ -1,0 +1,29 @@
+00 Facility Location : *Product (with its characteristics)* = has been selected (thru product selection and design + process design) 
+00 Facility Location : *Production facility* = its capacity (size as well) has been determined to meet the demand (thru capacity planning and forecasting)
+00 Facility Location : Next = determine *the most economical way* to obtain the product and deliver it to the customers.
+00 Facility Location :	Determining the most economical way to deliver product to customers includes considerations like : *Location of the facility* relative to the locations of the suppliers and potential customers, and possible means of transportation.
+00 Facility Location :	Determining the most economical way to deliver product to customers includes considerations like : *Layout of the facility* .
+00 Facility Location :	*FACILITIES* = buildings and structures where operations take place. Essential in operations planning, as facilities impact operations due to many factors.
+00 Facility Location :	*The topic of obtaining and distributing materials and products*= LOGISTICS.
+00 Facility Location :	*LOGISTICS management*= (Yalnızca dağıtım değil , fabrika içi depolama ve ürünlerin hareketi de dahil) supply, storage, and movement of materials, personnel, equipment and products within the organization and between the organization and its environment. Our focus will be on: supply (tedarik) and distribution aspects of logistics
+00 Facility Location :	*Distribution cost in sales* = ranges from 10% (mechanical equipment industry) to 30 % (food industry).
+00 Facility Location :	Distribution cost in sales = ranges from *10%* (mechanical equipment industry) to 30 % (food industry). 
+00 Facility Location :	Distribution cost in sales = ranges from 10% (mechanical equipment industry) to *30 %* (food industry). 
+00 Facility Location :  (Transportation / Location Tradeoffs) : *Logistics tradeoffs*.
+00 Facility Location : Location tradeoffs (hesaplama , ölçme biçme) -> *Service systems without a facilitating good* - Locate in the vicinity of the customers (medical clinics , parks) , Reach the customers by phone , Transport the services.
+00 Facility Location : Location tradeoffs (hesaplama , ölçme biçme) -> *Service systems with a facilitating good* - Product distributed to the customers (internet shopping , Amazon.com).
+00 Facility Location :  (Transportation / Location Tradeoffs) : *Logistics tradeoffs*.
+00 Facility Location : Routing Problems : *travelling salesperson problem (TSP)* = one vehicle serving all recipients on one route.
+00 Facility Location : Routing Problems : *vehicle routing problem (VRP)* = fleet of vehicles , several vehicles serving all recipients thru several routes.
+00 In routing problems biz yalnızca gidilen mesafeyi minimize etmeyiz bunun yanında , *Idle time ve delay time'ı* da minimize etmeye çalışırız.
+00 Facility Location (location models) : *Weight  (Wi) x score (Si)*: weighted score on factor i.
+00 Facility Location (location models) : Add up *the weighted scores* for each alternative.
+00 Facility Location (location models) : The location with *the highest weighted score* is the best location site.
+00 Facility Location three-stage location process : *Regional/international stage* - Community Stage - Site Stage (the actual location of the facility is selected).
+00 Facility Location three-stage location process : Regional/international stage - *Community Stage* - Site Stage (the actual location of the facility is selected).
+00 Facility Location three-stage location process : Regional/international stage - Community Stage - *Site Stage (the actual location of the facility is selected)*.
+00 Facility Location three-stage location process -> *Regional/international stage* Factors to be considered: proximity to customers and suppliers, labor supply, availability of inputs, environment (Bölgesel duruma genel olarak bakıyoruz (daha ilk aşamalardayız)).
+00 Facility Location three-stage location process -> *Site stage* Size, adjoining land, zoning, community attitudes, drainage, soil, availability of water, sewer, and utilities, waste disposal, transportation accessibility, local market, development costs.
+00 Facility Location : Location models -> *Rate-Volume-Distance Transportation Cost Model* minimize C = sum of (T(i) x V(i) x D(i)) Burada locationu seçtikten sonra bu location için TL/ton x ton x km hesabı yaparız yani cost'u buluruz ve minimumu seçeriz.
+00 Facility Location : Location models -> *If locating on a single line*: D(i) dependent on the chosen facility site on the straight line. The optimal is at one of the localities. X veya Y eksenine göre sıralıyoruz ve bu (x,y) değerlerden en küçüğünden başlayarak toplayarak ilerliyoruz, optimal çözümü eklediğimizde toplamımız genel toplamın yarısını geçmiş olacak.
+00 Facility Location : Location models -> 2D Space ->  Make an *incremental analysis*: a hopeful initial site is selected. Then it is moved slightly north, south, east and west. Total cost comparison is made. The process is repeated until no more improvement.

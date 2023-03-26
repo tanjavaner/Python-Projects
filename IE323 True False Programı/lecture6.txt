@@ -1,0 +1,68 @@
+00 A *forecast* is a prediction of what will occur in the future.
+00 A *forecast of demand* is the basis for most important planning decisions.
+00 Characteristics of forecasts : they are usually *wrong* .
+00 Characteristics of forecasts : A good forecast is more than a single number (both a *range* and a measure of accuracy).
+00 Characteristics of forecasts : A good forecast is more than a single number (both a range and a measure of *accuracy*).
+00 Characteristics of forecasts : *Aggregate* forecasts are more accurate.
+00 Characteristics of forecasts : The longer the forecast horizon, the *less* accurate the forecast will be.
+00 The *longer* the forecast horizon, the less accurate the forecast will be.
+00 In general, the further up the supply chain of a company is, the *higher the forecast error* in the upstream stages of the supply chain.
+00 Forecasts *should not be* used without considering subjective methods.
+00 Forecasts should not be used to the exclusion of *known information*.
+00 *Forecast horizon* indicates how far into the future is forecast.
+00 Planning decisions rely on accurate *short*-term forecasts of sales, usually on a weekly basis; also longer forecasts for 12- 24 months into the future.
+00 Demand behaviour : Demand sometimes behaves in a random , irregular way which is *Random variations*.
+00 Demand behaviour : Demand sometimes behaves in a random, irregular way. At other times it exhibits *predictable behaviour with trends or repetitive patterns*.
+00 In demand behaviour ->  *Trend* is a gradual , long-term 'up' or 'down' movement of demand.
+00 an up-and-down repetitive movement in demand over a lengthy time span (more than a year) : *Cycle* .
+00 an up-and-down repetitive movement in demand occurring periodically in the short run : *Seasonal pattern* Often weather-related. : Every winter the demand for snowblowers and skis increases.
+00 Demand behaviour frequently displays several of these characteristics *simultaneously*.
+00 Demand behaviour frequently displays *several* of these characteristics simultaneously.
+00 For example, demand for skis is *seasonal*; however there has been an upward trend in the demand for winter sports equipment in the past two decades.
+00 Forecasting methods , *Qualitative* based solely on judgement.
+00 *Qualitative* Use management judgment, expertise, opinion, past experience, or best guesses, to make forecasts.
+00 *Qualitative* Management, marketing, purchasing, and engineering are sources for internal qualitative forecasts.
+00 *Delphi Method* : A procedure for acquiring informed judgment and opinions from knowledgeable individuals using a series of questionnaires to develop a consensus forecast about what will happen in the future.
+00 Forecasting methods , *Quantitative* based solely on quantitative data and the assumption that past patterns are true for the future.
+00 Forecasting - Mathematical Models : *Time Series Methods* : statistical techniques that use historical demand data to predict future demand.
+00 Forecasting - Mathematical Models : *Regression (or casual) Methods* : attempt to develop a mathematical relationship between demand an factors that cause its behavior base on mathematical formulas.
+00 1- Identify the purpose of the forecast -> *Collect historical data* -> Plot data and identify patterns -> Select a forecast model that seems appropriate for data -> Develop/compute forecasts for the period of historical data.
+00 6- Check forecast accuracy with one or more measures  -> IF accuracy of forecast is not acceptable then *Select new forecast model or adjust parameters of the existing model*.
+00 7- If accuracy of the forecast is acceptable -> Forecast over planning horizon -> Adjust the forecast based on additional qualitative information and insight -> Monitor results and measure *forecast accuracy*.
+00 Assume that what has occured in thepast will continue to occur in the future -> makes use of historical data : *Time series*.
+00 Relate the forecast to only one factor that is *time*.
+00 *Naive Forecast* : demand in current period t is used as next period's forecast . (Ft+1 = Dt).
+00 *Simple moving average* : uses average demand for a fixed sequence of periods.
+00 *Simple moving average* : good for stable demand with no pronounced behavioral patterns.
+00 *Weighted moving average* : weights are assigned to most recent data.
+00 *Time Series* : A collection of observations at discrete points in time.
+00 *one-step-ahead-forecast* : {Ft >= 0} : Forecast of period t made in period t-1.
+00 *multiple-step-ahead-forecast* : {Ft >= 0} : Forecast of period t+T made in period t.
+00 True Time Series which is actually *actual observations*.
+00 Actual observations is represented by capital *'d'* so Dt for t >= 0.
+00 True Time Series : *Actual observations* is never known but assumed to follow some pattern with random deviations.
+00 True Time Series : *Realizations (actual observations)* are = a deterministic value from the true pattern (unknown so to be estimated) + random error.
+00 True Time Series : *Random Error* et is assumed to be normally distributed.
+00 True Time Series : Random Error et is assumed to be *normally distributed*.
+00 True Time Series : Random errors are not statistically independent from each other so *Covariance(e(t),e(t+1)) != 0*.
+00 True Time Series : Realizations (*Gerçek değerler*) , Estimated Pattern (Realizations sayesinde tahmin ettiğimiz pattern) , True Pattern(Gelecekte olacak ama şuan kesinlikle ve hiçbir zaman bilinmeyecek).
+00 True Time Series : Realizations (Gerçek değerler) , Estimated Pattern (*Realizations sayesinde tahmin ettiğimiz pattern*) , True Pattern(Gelecekte olacak ama şuan kesinlikle ve hiçbir zaman bilinmeyecek).
+00 True Time Series : Realizations (Gerçek değerler) , Estimated Pattern (Realizations sayesinde tahmin ettiğimiz pattern) , True Pattern(*Gelecekte olacak ama şuan kesinlikle ve hiçbir zaman bilinmeyecek*).
+00 *Stationary Time Series* : Assumed pattern (Dt) = mu(mean) + et (error) .
+00 Stationary Time Series : *Purely random* .
+00 Stationary Time Series : *Stationary* in some medium term .
+00 Stationary Time Series -> Forecasting methods : *Moving average MA(N)*, Exponential Smoothing ES(alpha).
+00 Stationary Time Series -> Forecasting methods : Moving average MA(N), *Exponential Smoothing ES(alpha)*.
+00 Stationary Time Series -> *Forecasting methods* : Moving average MA(N), Exponential Smoothing ES(alpha).
+00 Stationary Time Series -> *Moving Average of order N : MA(N)* = The forecast is the arithmetic average of the most recent N observations.
+00 Stationary Time Series -> Moving Average of order N : MA(N) = *The forecast is the arithmetic average of the most recent N observations*.
+00 Stationary Time Series -> *Moving Average of order N : MA(N)* = Ft(Forecast for time t) = sum(n=1 to n=infinity)(an x D(t-n))
+00 Stationary Time Series -> *Exponential Smoothing with the smoothing constant alpha* : The forecast is the weighted average of the last forecast and the current value of demand. 
+00 Stationary Time Series -> Exponential Smoothing : 0 < *smoothing constant* <= 1 .
+00 Stationary Time Series -> *Exponential Smoothing* The weights can be approximated with an exponential function f(i) = alpha.e^(-alpha.i) which is alpha.exp(-alpha.i)
+00 Stationary Time Series -> Formula for *Exponential Smoothing* = Ft (Forecast for period t) = alpha x demand( current value of demand period t-1) + (1-alpha) x Ft-1 (Last forecast).
+00 Stationary Time Series -> What is alpha in 'Exponential Smoothing' = *smoothing constant*.
+00 Stationary Time Series -> MA and ES parameters -> The larger the N in Moving Average (N) = *less* emphasis (responsive) on recent realizations and more stable forecasts.
+00 Stationary Time Series -> MA and ES parameters -> The larger the N in Moving Average (N) = less emphasis (responsive) on recent realizations and *more stable* forecasts.
+00 Stationary Time Series -> MA and ES parameters -> The larger the alpha in Exponential Smoothing (alpha) : *more* emphasis on recent realizations and less stable forecasts.
+00 Stationary Time Series -> MA and ES parameters -> The larger the alpha in Exponential Smoothing (alpha) : more emphasis on recent realizations and *less* stable forecasts.

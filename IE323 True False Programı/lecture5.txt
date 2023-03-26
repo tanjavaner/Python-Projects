@@ -1,0 +1,80 @@
+00 Facility Layout : *Layout design* is the physical placement of resources such as equipment and storage facilities.
+00 Facility Layout : The layout is designed to facilitate the efficient flow of *customers or materials* through the manufacturing or service system.
+00 Facility Layout (Needs from a layout) : *Effectiveness of operations*: meet space/shape requirements, facilitate flow, provide flexibility, improve quality, reduce lead time. 
+00 Facility Layout (Needs from a layout) : *Efficiency of operations* = improve use to reduce layout related costs (handling, space use, cost of additional facilities).
+00 Facility Layout (Needs from a layout) : *Other purposes* =  reducing safety or health hazards; minimizing interference between different operational areas.
+00 Facility Layout (Needs from a layout) :  If all effectiveness-related concerns are met, efficiency criterion reduces to *interrelations between operations*.
+00 Facility Layout : Examples for such interrelations between operations : Cost of *materials handling* when the main flows between operations are materials.
+00 Facility Layout : Examples for such interrelations between operations : *Staff time* when the major flows are of people.
+00 Facility Layout : Examples for such interrelations between operations : *Costs of lost or delayed* information when the main flows are of paperwork.
+00 *Types of layout* : The choice of layout type will follow from the process design choice \n Product layout (also called flow shop layout) \n Process layout (also called functional layout, job shop layout) \n Fixed-position layout (also called project layout) \n Cellular layout \n Hybrid layout.
+00 Product layout also termed as *line layout*.
+00 *Product layout* Arrange the resources required for a product or service around the needs of that product or service.
+00 *Examples of product layout* : Car assembly lines with a high volume of a standard product: products move from one processing station to the next. 
+00 *Examples of line layout cafe* : Self-service cafes.
+00 Product layout : Key issue: stages in the line must be *balanced* assembly line balancing.
+00 Product layout : A much *faster* flow time than in a process layout.
+00 Product layout : But *less* flexibility than a process layout:
+00 Product layout : only produces a *standard product or service*.
+00 Product layout : lacks the *robustness to loss of resources* (equipment failure) that the process layout can provide.
+00 Product layout : Waste of *space*.
+00 Product layout : *Better* control (scheduling) possible.
+00 Product layout : Not only a line configuration but also other designs like *U-shape* layout.
+00 Product layout - *Assembly lines* Set of sequential workstations, connected by a continuous material handling system.
+00 Product layout - Assembly lines Set of *sequential* workstations, connected by a continuous material handling system.
+00 Product layout - Assembly lines Set of *sequential* workstations, connected by a *continuous* material handling system.
+00 Product layout - Assembly lines : *Workstation* : A collection of machines, equipment and workers/operators performing a set of tasks on theproduct under the same control mechanism.
+00 Product layout - *Material handling system* : Conveyors, overhead monorails.
+00 Product layout - Assembly lines : A set of *tasks* is assigned to each workstation.
+00 Product layout - *task* is work content of each workstation.
+00 Product layout - Task times = *Processing times*.
+00 Product layout - Precedence Relationships : Represented as a directed *acyclic* graph.
+00 Product layout - Precedence Relationships : Nodes -> *tasks*.
+00 Product layout - Precedence Relationships : Arcs -> *Constraints*.
+00 Product layout - Assembly lines : *Cycle time* : time interval between two units of comming off the line.
+00 Product layout - Assembly lines : *Takt time* : Required maximum cycle time is defined by the demand rate for product ( Net time available / demand ).
+00 Product layout - Assembly lines : Takt time is *greater than or equal to* Cycle time.
+00 Assembly line balancing problem: Assign the tasks to the workstations so that some measure of performance is optimized as: *Number of workstations and Cycle Time*.
+00 *Constraints in the assignment of tasks* : Precedence relationships , Work content of a workstation <= cycle time , zoning restrictions , cycle time or number of workstations.
+00 The work contents of the *stations* are to be balanced.
+00 *Fixed-position-layout* : The good or service cannot be moved -> the transforming process must take place at the location of good manufacturing or service delivery.
+00 Fixed-position-layout : Key issues: *staging of the materials around the project site*; scheduling and coordination of resources to ensure their availability in the required amounts at the required time. Constraints: Precedence relationships among the activities, space availability on the site.
+00 Fixed-position-layout Example : *Aircraft production in a fixed position layout*.
+00 Process Layout is *Job shop* layout.
+00 In *job shops*, resources (equipment and people) with similar processes or functions are grouped together in departments.
+00 Job shop layout: The interrelationships are *departmental* .
+00 Job shop layout: A variety of important factors in the interrelationships among the *departments* (operations). 
+00 Job shop layout: Layout design is *very complex* due to a large variety in the products having different processing requirements , production volumes , routes.
+00 Job shop layout: Layout design is very complex due to a large variety in the products having different *processing requirements* , production volumes , routes.
+00 Job shop layout: Layout design is very complex due to a large variety in the products having different processing requirements , *production volumes* , routes.
+00 Job shop layout: Layout design is very complex due to a large variety in the products having different processing requirements , production volumes , *routes*.
+00 A job shop layout is based on *the historically stable product mix and their routings, and expected changes in that mix* , rather than the current operations or products.
+00 *Job shop layout*: Advantages : in service systems a wide variety of routes that may be chosen by customers depending on their needs.
+00 *Job shop layout*: Advantages : Product mix (variety) can be extended.
+00 *A cellular layout* combines the efficiency of a product layout with the flexibility of a process layout.
+00 Cellular layout : *Cells* are created by placing together resources which service a subset of the total range of products. When grouping products together in this way, the grouping is termed a family.
+00 Cellular layout : Cells are created by placing together resources which service a subset of the total range of products. When grouping products together in this way, the grouping is termed a *family*.
+00 Cellular layout : The process of grouping the products in families and the resources into cells is termed as *group technology*.
+00 Cellular layout : Not all applications of *GT* are cellular manufacturing. Cells need to be formed for cellular manufacturing layout.
+00 Grouping Technologies' Aspects : *Grouping parts into families* grouping parts or customers into families with the objective of reducing the changeover time between batches, allowing smaller batch sizes and thus improving flexibility. Based on grouping according to processing similarity.
+00 Grouping Technologies' Aspects : *Grouping physical facilities into cells* to reduce transportation time between processes. A cell comprises all the facilities required to manufacture a family of components or deliver a service. Movements are within the cell and throughput times are therefore reduced. Cells can be U-shaped.
+00 Grouping Technologies' Aspects : *Creating groups of multi-skilled workers* Increased autonomy and flexibility on the part of operators. Easier changeovers from one part to another, increased job enrichment.
+00 Grouping Technologies : Reduced throughout time by *reducing the queueing time*; opportunity for automation due to close proximity of the process stages. 
+00 Grouping Technologies' disadvantages are : *extra investment in resources; some machines hard/impossible to include in cells, like heat treatment ovens*.
+00 *Production Flow Analysis (PFA) (Burbidge, 1996)* is a GT technique that clusters components of similar machining requirements.
+00 Production Flow Analysis (PFA) (Burbidge, 1996) is the most common and simple approach to determine *families*.
+00 In Production Flow Analysis (in cellular-layout), *machine-component matrix* is determined.
+00 *Production Flow Analysis* (in cellular-layout) each component produced in only one cell.
+00 Production Flow Analysis (in cellular-layout) *Incompatible  machines* in separate cells. 
+00 *Production Flow Analysis* (in cellular-layout) Minimal need for parts to travel between cells .
+00 Cellular Layout - Production Flow Analysis : One method: *binary ordering algorithm* -> convert binary to decimal equivalents.
+00 Cellular Layout - Binary Ordering Algorithm : What happens as cells grow larger ? -> *Ebenin amı olur*.
+00 *Binary Ordering Algorithm* : Designed to operate on the matrix and arrive at a block diagonal structure with minimal exceptions.
+00 Cellular Layout - *Binary Ordering Algorithm* : Consider each row of the matrix as a binary # Rank the rows in decreasing order of this number. Stop if the rows are already in rank order. Reorder the rows in rank order. Repeat this procedure for the columns. Repeat the entire procedure until no further changes.
+00 Cellular Layout - Binary Ordering Algorithm : *Component-Machine Indicence* Matrix = Machine Type (Rows) x Component Type (Column).
+00 *Cellular Layout* - Other issues to be computed : Operation sequences , Part volume , Processing times , Capacity of machines , Intercell movement costs ,Additional machine investment costs.
+00 *Binary Ordering Algorithm* : İlk başta sütunları 2'nin kuvvetleri şeklinde yaz . [16] [8] [4] [2] [1]  gibi ... Sonra Alttaki binary 1'lerini çarp ve bunların 10'luk tabanda karşılıklarını yazarak en büyüğü en üste gelecek şekilde sırala . Sonra bunu Satırlar için tekrarla ...
+00 *Fixed-position Layout* : Very high product and mix flexibility, but very high unit cost. Products or customers do not move; the resources are arranged around them. There can be a high variety of tasks for staff. A major issue for operations is the scheduling and coordination of activities over time.
+00 *Process Layout* : High product and mix lexibility. Complex How can lead to high levels of work-in-progress and high throughput times. Low utilization of resources. Flexible in terms of handling additions to the product/service mix. Robust in that nonavailability of resources does not stop delivery of product/service it other group resources remain.
+00 *Cellular Layout* : Can provide flexibiliy of process layout and eticiency ot product layout. Resources can be matched to product or service demand so work-in-progress and thus throughput times are much lower than for process layout. Variety of fasks ofers opportunity for automation and more variation in duties for personnel. Can be costly to move and purchase additional plant necessary to rearrange existing layout.
+00 *Product Layout* : Standard product or service in high volumes at low unit cost. Can specialize equipment to product or service needs. Allows relatively little variety in product or service. Line contiguration leads to danger of failure of one process stage ettectively stopping output from the whole line. Work con be repetitive it personnel are always based at one process stage.

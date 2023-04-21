@@ -1,6 +1,8 @@
 import play
 import random
 
+
+arkaplan = play.new_image(image = "arkaplan.png",size = 130)
 kus = play.new_image(image ="kus.png",x=-100,size=9)
 engel_1 = play.new_box(x = 440,y = 300 ,height = 350,width =80,color = "blue",border_width= 5,border_color="black")
 engel_2 = play.new_box(x = 440,y = -300,height = 550,width =80,color = "blue",border_width= 5,border_color="black")

@@ -1,5 +1,5 @@
 #404 Kodlama Okulu 01.08.2022
-#https://www.instagram.com/404kodlamaokulu
+# 404 Kodlama Okulu - Harun YÜKSEL
 
 import play
 import math
